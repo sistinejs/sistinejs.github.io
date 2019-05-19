@@ -24,7 +24,9 @@ github_username:  sistinejs
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "neon" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
   - jekyll-feed
 
@@ -40,4 +42,14 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+include: [ "_docs", "_pages", "_demos" ]
 port: 5000
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
+
