@@ -26,6 +26,7 @@ github_username:  sistinejs
 markdown: kramdown
 # theme: minima
 theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.16.3
 minimal_mistakes_skin: "neon" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
   - jekyll-feed
