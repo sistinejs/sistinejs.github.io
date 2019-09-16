@@ -54,3 +54,24 @@ defaults:
       sidebar:
         nav: "docs"
 
+collections:
+  general:
+    permalink: /:collection/:slug
+    output: true
+    name: 'General'
+  controls:
+    permalink: /:collection/:slug
+    output: true
+    name: 'Controls'
+  tutorial:
+    permalink: /:collection/:slug
+    output: true
+    name: 'Tutorial'
+  samples:
+    permalink: /:collection/:slug
+    output: true
+    name: 'Samples'
+  faq:
+    permalink: /:collection/:slug
+    output: true
+    name: 'Frequently Asked Questions'
